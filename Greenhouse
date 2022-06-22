@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hosterr Landing Page</title>
+<link href=".css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="mobile-bg" onClick="toggleMenu('close')"></div>
+<div id="mobile-menu">
+	<div id="mobile-nav-header">
+<img src="Hosterr Starter Files/Assets/Logo.svg" alt=""/>	
+  <svg id="closeMenu" onclick="toggleMenu('close')" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.8 19.8">
+    <rect x="10" y="-2" width="4" height="24" transform="translate(-5.66 11.31) rotate(-45)"/>
+    <rect y="8" width="24" height="4" transform="translate(-5.66 11.31) rotate(-45)"/>
+  </svg></div>
+  <a>Plans</a> <a>Find Domain</a> <a>Why Hosterr</a>
+  <button class="waitlist-button">Join Waitlist</button>
+  <a>Sign in</a> </div>
+<nav>
+  <div id="nav-left"><img src="Hosterr Starter Files/Assets/Logo.svg" alt=""/>
+    <p id="hiring-notice">Hosterr is hiring!</p>
+  </div>
+  <div id="nav-center"><a>Plans</a><a>Find Domain</a><a>Why Hosterr</a></div>
+  <div id="nav-right"><a>Sign in</a>
+    <button class="waitlist-button">Join Waitlist</button>
+  </div>
+  <svg id="HamburgerMenu" class="" data-name="Ebene 1" onclick="toggleMenu('open')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20">
+    <rect width="24" height="4"/>
+    <rect y="8" width="24" height="4"/>
+    <rect y="16" width="24" height="4"/>
+  </svg>
+</nav>
+<section>
+  <div>
+    <h1>Host your website in less than 5 minutes.</h1>
+    <p id="join-text">With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online.</p>
+    <form>
+      <input type="email" required="required" placeholder="Enter e-mail address">
+      <button class="waitlist-button btn-form" type="submit">Join Waitlist</button>
+    </form>
+    <p id="newsletter-notice"><img src="Hosterr Starter Files/Assets/Checkmark.svg" alt=""/> No Spam, ever. Unsubscribe anytime. </p>
+  </div>
+  <div id="start-img"> <img id="header-img-0" src="Hosterr Starter Files/Assets/Blue Shape.svg" alt=""/> <img id="header-img-1" src="Hosterr Starter Files/Assets/Blue Shape.svg" alt=""/> <img id="header-img-2" src="Hosterr Starter Files/Assets/Pink Shape.svg" alt=""/> <img id="header-img-3" src="Hosterr Starter Files/Assets/Purple Shape.svg" alt=""/> <img id="header-img-4" src="Hosterr Starter Files/Assets/Hero Image (Model).png" alt=""/></div>
+</section>
+<footer>
+  <div><a>Facebook</a><a>Instagram</a><a>Twitter</a></div>
+  <div id="help-notice"><img src="Hosterr Starter Files/Assets/Help Avatar.svg" alt=""/>
+    <div>
+      <p>Have any questions?</p>
+      <p><strong><a>Talk to a specialist</a></strong></p>
+    </div>
+  </div>
+</footer>
+</body>
+<script>
+	
+	</script>
+</html>
